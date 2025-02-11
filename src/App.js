@@ -37,22 +37,46 @@
 
 // export default App
 
-import React from 'react'
-// import PropChild from './propsex/PropChild'
-// import SubChild from './propsex/SubChild'
-import Child1 from './propsex/Child1'
+// import React from 'react'
+// // import PropChild from './propsex/PropChild'
+// // import SubChild from './propsex/SubChild'
+// // import Child1 from './propsex/Child1'
+// import FBCStateEx from './stateexample/FBCStateEx'
+// const App = () => {
+//   return (
+//     <div>
+//     app
+//       {/* <PropChildEx num={1000}>
+//         <h1>this is data coming from props children</h1>
+//         <SubChild/>
+//       </PropChildEx> */}
+//       {/* <Child1 university="Mallareddy university"/> */}
+//     </div>
+//   )
+// }
 
-const App = () => {
+// export default App
+
+// import React from 'react';
+// // import useEffectEx from './hooksexamples/UseEffectEx';
+// import RefExamples from './hooksexamples/RefExamples';
+// function App() {
+//   return (
+//     <div className="App">
+//      {/* <useEffectEx/> */}
+//     </div>
+//   );
+// }
+// export default App;
+
+// App.js
+import React from 'react';
+import { RefExamples } from './hooksexamples/RefExamples';
+
+export default function App() {
   return (
     <div>
-    app
-      {/* <PropChildEx num={1000}>
-        <h1>this is data coming from props children</h1>
-        <SubChild/>
-      </PropChildEx> */}
-      <Child1 university="Mallareddy university"/>
+      <RefExamples />
     </div>
-  )
+  );
 }
-
-export default App
