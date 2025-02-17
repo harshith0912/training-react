@@ -70,13 +70,24 @@
 // export default App;
 
 // App.js
-import React from 'react';
-import { RefExamples } from './hooksexamples/RefExamples';
+// import React from 'react';
+// import { RefExamples } from './hooksexamples/RefExamples';
 
-export default function App() {
+// export default function App() {
+//   return (
+//     <div>
+//       <RefExamples />
+//     </div>
+//   );
+// }
+
+
+import React from 'react'
+
+const App = () => {
   return (
-    <div>
-      <RefExamples />
-    </div>
-  );
+    <div>App</div>
+  )
 }
+
+export default App
